@@ -2,7 +2,7 @@ proxy-groups:
   - name: 🤢 WeChat
     type: select
     proxies:
-      - ♻️ 自动选择
+      - ♻️ Url-Test
       - 🇭🇰 香港-自动
       - CN 台湾-自动
       - JP 日本-自动
@@ -16,12 +16,12 @@ proxy-groups:
       - AR 阿根廷-自动
       - 其他-亚洲-自动
       - 其他-欧洲-自动
-      - 🚀 手动切换
+      - 🚀 Select
       - DIRECT
   - name: 👽 OpenAI
     type: select
     proxies:
-      - ♻️ 自动选择
+      - ♻️ Url-Test
       - 🇭🇰 香港-自动
       - CN 台湾-自动
       - JP 日本-自动
@@ -35,12 +35,12 @@ proxy-groups:
       - AR 阿根廷-自动
       - 其他-亚洲-自动
       - 其他-欧洲-自动
-      - 🚀 手动切换
+      - 🚀 Select
       - DIRECT
   - name: 🌍 NoChina
     type: select
     proxies:
-      - ♻️ 自动选择
+      - ♻️ Url-Test
       - 🇭🇰 香港-自动
       - CN 台湾-自动
       - JP 日本-自动
@@ -54,12 +54,12 @@ proxy-groups:
       - AR 阿根廷-自动
       - 其他-亚洲-自动
       - 其他-欧洲-自动
-      - 🚀 手动切换
+      - 🚀 Select
       - DIRECT
-  - name: 🚀 手动切换
+  - name: 🚀 Select
     include-all: true
     type: select
-  - name: ♻️ 自动选择
+  - name: ♻️ Url-Test
     type: url-test
     include-all: true
     interval: 300
@@ -67,7 +67,7 @@ proxy-groups:
   - name: 📘 GitHub
     type: select
     proxies:
-      - ♻️ 自动选择
+      - ♻️ Url-Test
       - 🇭🇰 香港-自动
       - CN 台湾-自动
       - JP 日本-自动
@@ -81,12 +81,12 @@ proxy-groups:
       - AR 阿根廷-自动
       - 其他-亚洲-自动
       - 其他-欧洲-自动
-      - 🚀 手动切换
+      - 🚀 Select
       - DIRECT
   - name: 👯‍♂️ TikTok
     type: select
     proxies:
-      - ♻️ 自动选择
+      - ♻️ Url-Test
       - 🇭🇰 香港-自动
       - CN 台湾-自动
       - JP 日本-自动
@@ -100,12 +100,12 @@ proxy-groups:
       - AR 阿根廷-自动
       - 其他-亚洲-自动
       - 其他-欧洲-自动
-      - 🚀 手动切换
+      - 🚀 Select
       - DIRECT
   - name: 🎓 Telegram
     type: select
     proxies:
-      - ♻️ 自动选择
+      - ♻️ Url-Test
       - 🇭🇰 香港-自动
       - CN 台湾-自动
       - JP 日本-自动
@@ -119,12 +119,12 @@ proxy-groups:
       - AR 阿根廷-自动
       - 其他-亚洲-自动
       - 其他-欧洲-自动
-      - 🚀 手动切换
+      - 🚀 Select
       - DIRECT
   - name: 🌈 Google
     type: select
     proxies:
-      - ♻️ 自动选择
+      - ♻️ Url-Test
       - 🇭🇰 香港-自动
       - CN 台湾-自动
       - JP 日本-自动
@@ -138,12 +138,12 @@ proxy-groups:
       - AR 阿根廷-自动
       - 其他-亚洲-自动
       - 其他-欧洲-自动
-      - 🚀 手动切换
+      - 🚀 Select
       - DIRECT
   - name: 🎦 YouTube
     type: select
     proxies:
-      - ♻️ 自动选择
+      - ♻️ Url-Test
       - 🇭🇰 香港-自动
       - CN 台湾-自动
       - JP 日本-自动
@@ -157,12 +157,12 @@ proxy-groups:
       - AR 阿根廷-自动
       - 其他-亚洲-自动
       - 其他-欧洲-自动
-      - 🚀 手动切换
+      - 🚀 Select
       - DIRECT
   - name: 📘 Notion
     type: select
     proxies:
-      - ♻️ 自动选择
+      - ♻️ Url-Test
       - 🇭🇰 香港-自动
       - CN 台湾-自动
       - JP 日本-自动
@@ -176,7 +176,7 @@ proxy-groups:
       - AR 阿根廷-自动
       - 其他-亚洲-自动
       - 其他-欧洲-自动
-      - 🚀 手动切换
+      - 🚀 Select
       - DIRECT
   - name: 🎯 China
     type: select
@@ -185,7 +185,7 @@ proxy-groups:
   - name: 🐟 Other
     type: select
     proxies:
-      - ♻️ 自动选择
+      - ♻️ Url-Test
       - 🇭🇰 香港-自动
       - CN 台湾-自动
       - JP 日本-自动
@@ -199,7 +199,7 @@ proxy-groups:
       - AR 阿根廷-自动
       - 其他-亚洲-自动
       - 其他-欧洲-自动
-      - 🚀 手动切换
+      - 🚀 Select
       - DIRECT
   - name: 🇭🇰 香港-自动
     include-all: true
