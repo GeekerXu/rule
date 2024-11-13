@@ -354,7 +354,7 @@ rule-providers:
     
 
 rules:
-  - "RULE-SET,AI,👽 OpenAI"
+  - "RULE-SET,OpenAI,👽 OpenAI"
   - "RULE-SET,GitHub,📘 GitHub"
   - "RULE-SET,TikTok,👯‍♂️ TikTok"
   - "RULE-SET,Telegram,🎓 Telegram"
