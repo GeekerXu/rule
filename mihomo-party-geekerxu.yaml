@@ -391,14 +391,14 @@ rule-providers:
     type: http
   Notion:
     url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Notion/Notion.list
-    path: ./ruleset/AI.list
+    path: ./ruleset/Notion.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   WeChat:
     url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/WeChat/WeChat.list
-    path: ./ruleset/AI.list
+    path: ./ruleset/WeChat.list
     behavior: classical
     interval: 86400
     format: text
