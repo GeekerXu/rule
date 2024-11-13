@@ -18,7 +18,7 @@ proxy-groups:
       - 其他-欧洲-自动
       - 🚀 手动切换
       - DIRECT
-  - name: 👽 AI
+  - name: 👽 OpenAI
     type: select
     proxies:
       - ♻️ 自动选择
@@ -37,7 +37,7 @@ proxy-groups:
       - 其他-欧洲-自动
       - 🚀 手动切换
       - DIRECT
-  - name: 🌍 国外
+  - name: 🌍 NoChina
     type: select
     proxies:
       - ♻️ 自动选择
@@ -140,26 +140,7 @@ proxy-groups:
       - 其他-欧洲-自动
       - 🚀 手动切换
       - DIRECT
-  - name: 🎦 油管
-    type: select
-    proxies:
-      - ♻️ 自动选择
-      - 🇭🇰 香港-自动
-      - CN 台湾-自动
-      - JP 日本-自动
-      - SG 新加坡-自动
-      - US 美国-自动
-      - DE 德国-自动
-      - RU 俄罗斯-自动
-      - TR 土耳其-自动
-      - GB 英国-自动
-      - MY 马来-自动
-      - AR 阿根廷-自动
-      - 其他-亚洲-自动
-      - 其他-欧洲-自动
-      - 🚀 手动切换
-      - DIRECT
-  - name: 📀 流媒体
+  - name: 🎦 YouTube
     type: select
     proxies:
       - ♻️ 自动选择
@@ -197,23 +178,11 @@ proxy-groups:
       - 其他-欧洲-自动
       - 🚀 手动切换
       - DIRECT
-  - name: 🎯 全球直连
+  - name: 🎯 China
     type: select
     proxies:
       - DIRECT
-      - 🚀 手动切换
-      - ♻️ 自动选择
-  - name: 🛑 广告拦截
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-  - name: 🍃 应用净化
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-  - name: 🐟 漏网之鱼
+  - name: 🐟 Other
     type: select
     proxies:
       - ♻️ 自动选择
@@ -312,7 +281,7 @@ proxy-groups:
     tolerance: 50
 
 rule-providers:
-  AI:
+  OpenAI:
     url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.list
     path: ./ruleset/OpenAI.list
     behavior: classical
@@ -354,27 +323,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  Disney:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list
-    path: ./ruleset/Disney.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Netflix:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list
-    path: ./ruleset/Netflix.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Spotify:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list
-    path: ./ruleset/Spotify.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
   Proxy:
     url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/liandu2024/clash/refs/heads/main/Proxy.list
     path: ./ruleset/Proxy.list
@@ -406,17 +354,14 @@ rule-providers:
     
 
 rules:
-  - "RULE-SET,AI,👽 AI"
+  - "RULE-SET,AI,👽 OpenAIAI"
   - "RULE-SET,GitHub,📘 GitHub"
   - "RULE-SET,TikTok,👯‍♂️ TikTok"
   - "RULE-SET,Telegram,🎓 Telegram"
-  - "RULE-SET,Google,🌈 Google"
-  - "RULE-SET,YouTube,🎦 油管"
-  - "RULE-SET,Disney,📀 流媒体"
-  - "RULE-SET,Netflix,📀 流媒体"
-  - "RULE-SET,Proxy,📀 流媒体"
-  - "RULE-SET,Global,🌍 国外"
+  - "RULE-SEaT,Google,🌈 Google"
+  - "RULE-SET,YouTube,🎦 YouTube"
+  - "RULE-SET,Global,🌍 NoChina"
   - "RULE-SET,Notion,📘 Notion"
   - "RULE-SET,WeChat,🤢 WeChat"
-  - "GEOIP,CN,🎯 全球直连"
-  - "MATCH,🐟 漏网之鱼"
+  - "GEOIP,CN,🎯 China"
+  - "MATCH,🐟 Other"
