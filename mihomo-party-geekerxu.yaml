@@ -217,84 +217,84 @@ proxy-groups:
     include-all: true
     filter: (?i)香港|HK
     type: url-test
-    interval: 150
-    tolerance: 60
+    interval: 300
+    tolerance: 50
   - name: CN 台湾-自动
     include-all: true
     filter: (?i)台湾
     type: url-test
-    interval: 150
-    tolerance: 60
+    interval: 300
+    tolerance: 50
   - name: JP 日本-自动
     include-all: true
     filter: (?i)日本|JP
     type: url-test
-    interval: 150
-    tolerance: 60
+    interval: 300
+    tolerance: 50
   - name: SG 新加坡-自动
     include-all: true
     filter: (?i)新加坡|SG
     type: url-test
-    interval: 150
-    tolerance: 60
+    interval: 300
+    tolerance: 50
   - name: US 美国-自动
     include-all: true
     filter: (?i)美国|US
     type: url-test
-    interval: 150
-    tolerance: 60
+    interval: 300
+    tolerance: 50
   - name: DE 德国-自动
     include-all: true
     filter: (?i)德国|DE
     type: url-test
-    interval: 150
-    tolerance: 60
+    interval: 300
+    tolerance: 50
   - name: RU 俄罗斯-自动
     include-all: true
     filter: (?i)俄罗斯|RU
     type: url-test
-    interval: 150
-    tolerance: 60
+    interval: 300
+    tolerance: 50
   - name: TR 土耳其-自动
     include-all: true
     filter: (?i)土耳其|TR
     type: url-test
-    interval: 150
-    tolerance: 60
+    interval: 300
+    tolerance: 50
   - name: GB 英国-自动
     include-all: true
     filter: (?i)英国|GB
     type: url-test
-    interval: 150
-    tolerance: 60
+    interval: 300
+    tolerance: 50
   - name: MY 马来-自动
     include-all: true
     filter: (?i)马来|MY
     type: url-test
-    interval: 150
-    tolerance: 60
+    interval: 300
+    tolerance: 50
   - name: AR 阿根廷-自动
     include-all: true
     filter: (?i)阿根廷|AR
     type: url-test
-    interval: 150
-    tolerance: 60
+    interval: 300
+    tolerance: 50
   - name: 其他-亚洲-自动
     include-all: true
     filter: (?i)吉尔吉斯斯坦|KG|哈萨克斯坦|🇰🇿|尼泊尔|NP|柬埔寨|🇰🇭|韩国|KR
     type: url-test
-    interval: 150
-    tolerance: 60
+    interval: 300
+    tolerance: 50
   - name: 其他-欧洲-自动
     include-all: true
     filter: (?i)卢森堡|🇱🇺|奥地利|🇦🇹|希腊|🇬🇷|比利时|BE|爱沙尼亚|EE|白俄罗斯|BY|立陶宛|LT|罗马尼亚|RO|芬兰|FI|西班牙|ES|马其顿|MK
     type: url-test
-    interval: 150
-    tolerance: 60
+    interval: 300
+    tolerance: 50
 
 rule-providers:
   AI:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/liandu2024/clash/refs/heads/main/AI.list
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.list
     path: ./ruleset/AI.list
     behavior: classical
     interval: 86400
