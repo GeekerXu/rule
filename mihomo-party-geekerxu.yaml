@@ -337,6 +337,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  Bing:
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Bing/Bing.list
+    path: ./ruleset/Bing.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http    
   Notion:
     url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Notion/Notion.list
     path: ./ruleset/Notion.list
@@ -361,6 +368,7 @@ rules:
   - "RULE-SET,Google,🌈 Google"
   - "RULE-SET,YouTube,🎦 YouTube"
   - "RULE-SET,Global,🌍 NoChina"
+  - "RULE-SET,Bing,🌍 NoChina"
   - "RULE-SET,Notion,📘 Notion"
   - "RULE-SET,WeChat,🤢 WeChat"
   - "GEOIP,CN,🎯 China"
