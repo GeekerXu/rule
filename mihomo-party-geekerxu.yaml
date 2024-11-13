@@ -1,4 +1,23 @@
 proxy-groups:
+  - name: 🤢 WeChat
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇭🇰 香港-自动
+      - CN 台湾-自动
+      - JP 日本-自动
+      - SG 新加坡-自动
+      - US 美国-自动
+      - DE 德国-自动
+      - RU 俄罗斯-自动
+      - TR 土耳其-自动
+      - GB 英国-自动
+      - MY 马来-自动
+      - AR 阿根廷-自动
+      - 其他-亚洲-自动
+      - 其他-欧洲-自动
+      - 🚀 手动切换
+      - DIRECT
   - name: 👽 AI
     type: select
     proxies:
@@ -377,6 +396,14 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  WeChat:
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/WeChat/WeChat.list
+    path: ./ruleset/AI.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+    
 
 rules:
   - "RULE-SET,AI,👽 AI"
@@ -390,5 +417,6 @@ rules:
   - "RULE-SET,Proxy,📀 流媒体"
   - "RULE-SET,Global,🌍 国外"
   - "RULE-SET,Notion,📘 Notion"
+  - "RULE-SET,WeChat,🤢 WeChat"
   - "GEOIP,CN,🎯 全球直连"
   - "MATCH,🐟 漏网之鱼"
