@@ -1,0 +1,394 @@
+proxy-groups:
+  - name: 👽 AI
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇭🇰 香港-自动
+      - CN 台湾-自动
+      - JP 日本-自动
+      - SG 新加坡-自动
+      - US 美国-自动
+      - DE 德国-自动
+      - RU 俄罗斯-自动
+      - TR 土耳其-自动
+      - GB 英国-自动
+      - MY 马来-自动
+      - AR 阿根廷-自动
+      - 其他-亚洲-自动
+      - 其他-欧洲-自动
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🌍 国外
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇭🇰 香港-自动
+      - CN 台湾-自动
+      - JP 日本-自动
+      - SG 新加坡-自动
+      - US 美国-自动
+      - DE 德国-自动
+      - RU 俄罗斯-自动
+      - TR 土耳其-自动
+      - GB 英国-自动
+      - MY 马来-自动
+      - AR 阿根廷-自动
+      - 其他-亚洲-自动
+      - 其他-欧洲-自动
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🚀 手动切换
+    include-all: true
+    type: select
+  - name: ♻️ 自动选择
+    type: url-test
+    include-all: true
+    interval: 300
+    tolerance: 50
+  - name: 📘 GitHub
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇭🇰 香港-自动
+      - CN 台湾-自动
+      - JP 日本-自动
+      - SG 新加坡-自动
+      - US 美国-自动
+      - DE 德国-自动
+      - RU 俄罗斯-自动
+      - TR 土耳其-自动
+      - GB 英国-自动
+      - MY 马来-自动
+      - AR 阿根廷-自动
+      - 其他-亚洲-自动
+      - 其他-欧洲-自动
+      - 🚀 手动切换
+      - DIRECT
+  - name: 👯‍♂️ TikTok
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇭🇰 香港-自动
+      - CN 台湾-自动
+      - JP 日本-自动
+      - SG 新加坡-自动
+      - US 美国-自动
+      - DE 德国-自动
+      - RU 俄罗斯-自动
+      - TR 土耳其-自动
+      - GB 英国-自动
+      - MY 马来-自动
+      - AR 阿根廷-自动
+      - 其他-亚洲-自动
+      - 其他-欧洲-自动
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🎓 Telegram
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇭🇰 香港-自动
+      - CN 台湾-自动
+      - JP 日本-自动
+      - SG 新加坡-自动
+      - US 美国-自动
+      - DE 德国-自动
+      - RU 俄罗斯-自动
+      - TR 土耳其-自动
+      - GB 英国-自动
+      - MY 马来-自动
+      - AR 阿根廷-自动
+      - 其他-亚洲-自动
+      - 其他-欧洲-自动
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🌈 Google
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇭🇰 香港-自动
+      - CN 台湾-自动
+      - JP 日本-自动
+      - SG 新加坡-自动
+      - US 美国-自动
+      - DE 德国-自动
+      - RU 俄罗斯-自动
+      - TR 土耳其-自动
+      - GB 英国-自动
+      - MY 马来-自动
+      - AR 阿根廷-自动
+      - 其他-亚洲-自动
+      - 其他-欧洲-自动
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🎦 油管
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇭🇰 香港-自动
+      - CN 台湾-自动
+      - JP 日本-自动
+      - SG 新加坡-自动
+      - US 美国-自动
+      - DE 德国-自动
+      - RU 俄罗斯-自动
+      - TR 土耳其-自动
+      - GB 英国-自动
+      - MY 马来-自动
+      - AR 阿根廷-自动
+      - 其他-亚洲-自动
+      - 其他-欧洲-自动
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📀 流媒体
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇭🇰 香港-自动
+      - CN 台湾-自动
+      - JP 日本-自动
+      - SG 新加坡-自动
+      - US 美国-自动
+      - DE 德国-自动
+      - RU 俄罗斯-自动
+      - TR 土耳其-自动
+      - GB 英国-自动
+      - MY 马来-自动
+      - AR 阿根廷-自动
+      - 其他-亚洲-自动
+      - 其他-欧洲-自动
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📘 Notion
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇭🇰 香港-自动
+      - CN 台湾-自动
+      - JP 日本-自动
+      - SG 新加坡-自动
+      - US 美国-自动
+      - DE 德国-自动
+      - RU 俄罗斯-自动
+      - TR 土耳其-自动
+      - GB 英国-自动
+      - MY 马来-自动
+      - AR 阿根廷-自动
+      - 其他-亚洲-自动
+      - 其他-欧洲-自动
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 手动切换
+      - ♻️ 自动选择
+  - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - 🇭🇰 香港-自动
+      - CN 台湾-自动
+      - JP 日本-自动
+      - SG 新加坡-自动
+      - US 美国-自动
+      - DE 德国-自动
+      - RU 俄罗斯-自动
+      - TR 土耳其-自动
+      - GB 英国-自动
+      - MY 马来-自动
+      - AR 阿根廷-自动
+      - 其他-亚洲-自动
+      - 其他-欧洲-自动
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🇭🇰 香港-自动
+    include-all: true
+    filter: (?i)香港|HK
+    type: url-test
+    interval: 150
+    tolerance: 60
+  - name: CN 台湾-自动
+    include-all: true
+    filter: (?i)台湾
+    type: url-test
+    interval: 150
+    tolerance: 60
+  - name: JP 日本-自动
+    include-all: true
+    filter: (?i)日本|JP
+    type: url-test
+    interval: 150
+    tolerance: 60
+  - name: SG 新加坡-自动
+    include-all: true
+    filter: (?i)新加坡|SG
+    type: url-test
+    interval: 150
+    tolerance: 60
+  - name: US 美国-自动
+    include-all: true
+    filter: (?i)美国|US
+    type: url-test
+    interval: 150
+    tolerance: 60
+  - name: DE 德国-自动
+    include-all: true
+    filter: (?i)德国|DE
+    type: url-test
+    interval: 150
+    tolerance: 60
+  - name: RU 俄罗斯-自动
+    include-all: true
+    filter: (?i)俄罗斯|RU
+    type: url-test
+    interval: 150
+    tolerance: 60
+  - name: TR 土耳其-自动
+    include-all: true
+    filter: (?i)土耳其|TR
+    type: url-test
+    interval: 150
+    tolerance: 60
+  - name: GB 英国-自动
+    include-all: true
+    filter: (?i)英国|GB
+    type: url-test
+    interval: 150
+    tolerance: 60
+  - name: MY 马来-自动
+    include-all: true
+    filter: (?i)马来|MY
+    type: url-test
+    interval: 150
+    tolerance: 60
+  - name: AR 阿根廷-自动
+    include-all: true
+    filter: (?i)阿根廷|AR
+    type: url-test
+    interval: 150
+    tolerance: 60
+  - name: 其他-亚洲-自动
+    include-all: true
+    filter: (?i)吉尔吉斯斯坦|KG|哈萨克斯坦|🇰🇿|尼泊尔|NP|柬埔寨|🇰🇭|韩国|KR
+    type: url-test
+    interval: 150
+    tolerance: 60
+  - name: 其他-欧洲-自动
+    include-all: true
+    filter: (?i)卢森堡|🇱🇺|奥地利|🇦🇹|希腊|🇬🇷|比利时|BE|爱沙尼亚|EE|白俄罗斯|BY|立陶宛|LT|罗马尼亚|RO|芬兰|FI|西班牙|ES|马其顿|MK
+    type: url-test
+    interval: 150
+    tolerance: 60
+
+rule-providers:
+  AI:
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/liandu2024/clash/refs/heads/main/AI.list
+    path: ./ruleset/AI.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GitHub:
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub.list
+    path: ./ruleset/GitHub.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  TikTok:
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TikTok/TikTok.list
+    path: ./ruleset/TikTok.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Telegram:
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list
+    path: ./ruleset/Telegram.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Google:
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list
+    path: ./ruleset/Google.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  YouTube:
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list
+    path: ./ruleset/YouTube.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Disney:
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list
+    path: ./ruleset/Disney.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Netflix:
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list
+    path: ./ruleset/Netflix.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Spotify:
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list
+    path: ./ruleset/Spotify.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Proxy:
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/liandu2024/clash/refs/heads/main/Proxy.list
+    path: ./ruleset/Proxy.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Global:
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Global/Global.list
+    path: ./ruleset/Global.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  Notion:
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Notion/Notion.list
+    path: ./ruleset/AI.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+
+rules:
+  - "RULE-SET,AI,👽 AI"
+  - "RULE-SET,GitHub,📘 GitHub"
+  - "RULE-SET,TikTok,👯‍♂️ TikTok"
+  - "RULE-SET,Telegram,🎓 Telegram"
+  - "RULE-SET,Google,🌈 Google"
+  - "RULE-SET,YouTube,🎦 油管"
+  - "RULE-SET,Disney,📀 流媒体"
+  - "RULE-SET,Netflix,📀 流媒体"
+  - "RULE-SET,Proxy,📀 流媒体"
+  - "RULE-SET,Global,🌍 国外"
+  - "RULE-SET,Notion,📘 Notion"
+  - "GEOIP,CN,🎯 全球直连"
+  - "MATCH,🐟 漏网之鱼"
