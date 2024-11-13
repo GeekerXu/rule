@@ -314,7 +314,7 @@ proxy-groups:
 rule-providers:
   AI:
     url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.list
-    path: ./ruleset/AI.list
+    path: ./ruleset/OpenAI.list
     behavior: classical
     interval: 86400
     format: text
