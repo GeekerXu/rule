@@ -358,6 +358,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  WeChat1:
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list
+    path: ./ruleset/WeChat1.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
     
 
 rules:
@@ -371,5 +378,6 @@ rules:
   - "RULE-SET,Bing,🌍 NoChina"
   - "RULE-SET,Notion,📘 Notion"
   - "RULE-SET,WeChat,🤢 WeChat"
+  - "RULE-SET,WeChat1,🤢 WeChat"
   - "GEOIP,CN,🎯 China"
   - "MATCH,🐟 Other"
