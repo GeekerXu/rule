@@ -282,91 +282,91 @@ proxy-groups:
 
 rule-providers:
   OpenAI:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.list
+    url: https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/OpenAI/OpenAI.list
     path: ./ruleset/OpenAI.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   GitHub:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub.list
+    url: https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub.list
     path: ./ruleset/GitHub.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   TikTok:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TikTok/TikTok.list
+    url: https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TikTok/TikTok.list
     path: ./ruleset/TikTok.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   Telegram:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list
+    url: https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list
     path: ./ruleset/Telegram.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   Google:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list
+    url: https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list
     path: ./ruleset/Google.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   YouTube:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list
+    url: https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list
     path: ./ruleset/YouTube.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   Proxy:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/liandu2024/clash/refs/heads/main/Proxy.list
+    url: https://ghfast.top/https://raw.githubusercontent.com/liandu2024/clash/refs/heads/main/Proxy.list
     path: ./ruleset/Proxy.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   Global:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Global/Global.list
+    url: https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Global/Global.list
     path: ./ruleset/Global.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   Bing:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Bing/Bing.list
+    url: https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Bing/Bing.list
     path: ./ruleset/Bing.list
     behavior: classical
     interval: 86400
     format: text
     type: http    
   Notion:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Notion/Notion.list
+    url: https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Notion/Notion.list
     path: ./ruleset/Notion.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   WeChat:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/WeChat/WeChat.list
+    url: https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/WeChat/WeChat.list
     path: ./ruleset/WeChat.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   WeChat1:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list
+    url: https://ghfast.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list
     path: ./ruleset/WeChat1.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   GeekerXu:
-    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/GeekerXu/rule/refs/heads/main/GeekerXu.list
+    url: https://ghfast.top/https://raw.githubusercontent.com/GeekerXu/rule/refs/heads/main/GeekerXu.list
     path: ./ruleset/GeekerXu.list
     behavior: classical
     interval: 86400
