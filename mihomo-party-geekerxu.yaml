@@ -1,6 +1,6 @@
 proxy-groups:
   - name: 🤢 WeChat
-    type: select
+    输入: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
@@ -19,7 +19,7 @@ proxy-groups:
       - 🚀 Select
       - DIRECT
   - name: 👽 OpenAI
-    type: select
+    输入: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
@@ -38,7 +38,7 @@ proxy-groups:
       - 🚀 Select
       - DIRECT
   - name: 🌍 NoChina
-    type: select
+    输入: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
@@ -58,9 +58,9 @@ proxy-groups:
       - DIRECT
   - name: 🚀 Select
     include-all: true
-    type: select
+    输入: select
   - name: ♻️ Url-Test
-    type: url-test
+    输入: url-test
     include-all: true
     interval: 300
     tolerance: 50
@@ -103,7 +103,7 @@ proxy-groups:
       - 🚀 Select
       - DIRECT
   - name: 🎓 Telegram
-    type: select
+    输入: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
@@ -122,7 +122,7 @@ proxy-groups:
       - 🚀 Select
       - DIRECT
   - name: 🌈 Google
-    type: select
+    输入: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
@@ -141,7 +141,7 @@ proxy-groups:
       - 🚀 Select
       - DIRECT
   - name: 🎦 YouTube
-    type: select
+    输入: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
@@ -160,7 +160,7 @@ proxy-groups:
       - 🚀 Select
       - DIRECT
   - name: 📘 Notion
-    type: select
+    输入: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
@@ -179,11 +179,11 @@ proxy-groups:
       - 🚀 Select
       - DIRECT
   - name: 🎯 China
-    type: select
+    输入: select
     proxies:
       - DIRECT
   - name: 🐟 Other
-    type: select
+    输入: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
@@ -204,13 +204,13 @@ proxy-groups:
   - name: 🇭🇰 香港-自动
     include-all: true
     filter: (?i)香港|HK
-    type: url-test
+    输入: url-test
     interval: 300
     tolerance: 50
   - name: CN 台湾-自动
     include-all: true
     filter: (?i)台湾
-    type: url-test
+    输入: url-test
     interval: 300
     tolerance: 50
   - name: JP 日本-自动
@@ -228,55 +228,55 @@ proxy-groups:
   - name: US 美国-自动
     include-all: true
     filter: (?i)美国|US
-    type: url-test
+    输入: url-test
     interval: 300
     tolerance: 50
   - name: DE 德国-自动
     include-all: true
     filter: (?i)德国|DE
-    type: url-test
+    输入: url-test
     interval: 300
     tolerance: 50
   - name: RU 俄罗斯-自动
     include-all: true
     filter: (?i)俄罗斯|RU
-    type: url-test
+    输入: url-test
     interval: 300
     tolerance: 50
   - name: TR 土耳其-自动
     include-all: true
     filter: (?i)土耳其|TR
-    type: url-test
+    输入: url-test
     interval: 300
     tolerance: 50
   - name: GB 英国-自动
     include-all: true
     filter: (?i)英国|GB
-    type: url-test
+    输入: url-test
     interval: 300
     tolerance: 50
   - name: MY 马来-自动
     include-all: true
     filter: (?i)马来|MY
-    type: url-test
+    输入: url-test
     interval: 300
     tolerance: 50
   - name: AR 阿根廷-自动
     include-all: true
     filter: (?i)阿根廷|AR
-    type: url-test
+    输入: url-test
     interval: 300
     tolerance: 50
   - name: 其他-亚洲-自动
     include-all: true
     filter: (?i)吉尔吉斯斯坦|KG|哈萨克斯坦|🇰🇿|尼泊尔|NP|柬埔寨|🇰🇭|韩国|KR
-    type: url-test
+    输入: url-test
     interval: 300
     tolerance: 50
   - name: 其他-欧洲-自动
     include-all: true
     filter: (?i)卢森堡|🇱🇺|奥地利|🇦🇹|希腊|🇬🇷|比利时|BE|爱沙尼亚|EE|白俄罗斯|BY|立陶宛|LT|罗马尼亚|RO|芬兰|FI|西班牙|ES|马其顿|MK
-    type: url-test
+    输入: url-test
     interval: 300
     tolerance: 50
 
@@ -287,91 +287,98 @@ rule-providers:
     behavior: classical
     interval: 86400
     format: text
-    type: http
+    输入: http
   GitHub:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/GitHub/GitHub.list
     path: ./ruleset/GitHub.list
     behavior: classical
     interval: 86400
     format: text
-    type: http
+    输入: http
   TikTok:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TikTok/TikTok.list
     path: ./ruleset/TikTok.list
     behavior: classical
     interval: 86400
     format: text
-    type: http
+    输入: http
   Telegram:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list
     path: ./ruleset/Telegram.list
     behavior: classical
     interval: 86400
     format: text
-    type: http
+    输入: http
   Google:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Google/Google.list
     path: ./ruleset/Google.list
     behavior: classical
     interval: 86400
     format: text
-    type: http
+    输入: http
   YouTube:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list
     path: ./ruleset/YouTube.list
     behavior: classical
     interval: 86400
     format: text
-    type: http
+    输入: http
   Proxy:
     url: https://raw.githubusercontent.com/liandu2024/clash/refs/heads/main/list/Proxy.list
     path: ./ruleset/Proxy.list
     behavior: classical
     interval: 86400
     format: text
-    type: http
+    输入: http
   Global:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Global/Global.list
     path: ./ruleset/Global.list
     behavior: classical
     interval: 86400
     format: text
-    type: http
+    输入: http
   Bing:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Bing/Bing.list
     path: ./ruleset/Bing.list
     behavior: classical
     interval: 86400
     format: text
-    type: http    
+    输入: http    
   Notion:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Notion/Notion.list
     path: ./ruleset/Notion.list
     behavior: classical
     interval: 86400
     format: text
-    type: http
+    输入: http
+  Zhihu:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Zhihu/Zhihu.list
+    path: ./ruleset/Zhihu.list
+    behavior: classical
+    interval: 86400
+    format: text
+    输入: http
   WeChat:
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/WeChat/WeChat.list
     path: ./ruleset/WeChat.list
     behavior: classical
     interval: 86400
     format: text
-    type: http
+    输入: http
   WeChat1:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list
     path: ./ruleset/WeChat1.list
     behavior: classical
     interval: 86400
     format: text
-    type: http
+    输入: http
   GeekerXu:
     url: https://raw.githubusercontent.com/GeekerXu/rule/refs/heads/main/GeekerXu.list
     path: ./ruleset/GeekerXu.list
     behavior: classical
     interval: 86400
     format: text
-    type: http    
+    输入: http    
 
 rules:
   - "RULE-SET,OpenAI,👽 OpenAI"
@@ -384,6 +391,7 @@ rules:
   - "RULE-SET,Bing,🌍 NoChina"
   - "RULE-SET,GeekerXu,🌍 NoChina"
   - "RULE-SET,Notion,📘 Notion"
+  - "RULE-SET,Zhihu,📖 Zhihu"
   - "RULE-SET,WeChat,🤢 WeChat"
   - "RULE-SET,WeChat1,🤢 WeChat"
   - "GEOIP,CN,🎯 China"
