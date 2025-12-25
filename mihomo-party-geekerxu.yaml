@@ -18,6 +18,25 @@ proxy-groups:
       - 其他-欧洲-自动
       - 🚀 Select
       - DIRECT
+  - name: 📖 Zhihu
+    输入: select
+    proxies:
+      - ♻️ Url-Test
+      - 🇭🇰 香港-自动
+      - CN 台湾-自动
+      - JP 日本-自动
+      - SG 新加坡-自动
+      - US 美国-自动
+      - DE 德国-自动
+      - RU 俄罗斯-自动
+      - TR 土耳其-自动
+      - GB 英国-自动
+      - MY 马来-自动
+      - AR 阿根廷-自动
+      - 其他-亚洲-自动
+      - 其他-欧洲-自动
+      - 🚀 Select
+      - DIRECT
   - name: 👽 OpenAI
     输入: select
     proxies:
@@ -84,7 +103,7 @@ proxy-groups:
       - 🚀 Select
       - DIRECT
   - name: 👯‍♂️ TikTok
-    type: select
+    输入: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
@@ -216,13 +235,13 @@ proxy-groups:
   - name: JP 日本-自动
     include-all: true
     filter: (?i)日本|JP
-    type: url-test
+    输入: url-test
     interval: 300
     tolerance: 50
   - name: SG 新加坡-自动
     include-all: true
     filter: (?i)新加坡|SG
-    type: url-test
+    输入: url-test
     interval: 300
     tolerance: 50
   - name: US 美国-自动
@@ -365,13 +384,6 @@ rule-providers:
     interval: 86400
     format: text
     输入: http
-  WeChat1:
-    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list
-    path: ./ruleset/WeChat1.list
-    behavior: classical
-    interval: 86400
-    format: text
-    输入: http
   GeekerXu:
     url: https://raw.githubusercontent.com/GeekerXu/rule/refs/heads/main/GeekerXu.list
     path: ./ruleset/GeekerXu.list
@@ -393,6 +405,5 @@ rules:
   - "RULE-SET,Notion,📘 Notion"
   - "RULE-SET,Zhihu,📖 Zhihu"
   - "RULE-SET,WeChat,🤢 WeChat"
-  - "RULE-SET,WeChat1,🤢 WeChat"
   - "GEOIP,CN,🎯 China"
   - "MATCH,🐟 Other"
