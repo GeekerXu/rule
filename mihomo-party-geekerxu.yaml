@@ -1,6 +1,6 @@
 proxy-groups:
   - name: 📖 Zhihu
-    输入: select
+    type: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
@@ -19,7 +19,7 @@ proxy-groups:
       - 🚀 Select
       - DIRECT
   - name: 👽 OpenAI
-    输入: select
+    type: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
@@ -38,7 +38,7 @@ proxy-groups:
       - 🚀 Select
       - DIRECT
   - name: 🌍 NoChina
-    输入: select
+    type: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
@@ -58,14 +58,14 @@ proxy-groups:
       - DIRECT
   - name: 🚀 Select
     include-all: true
-    输入: select
+    type: select
   - name: ♻️ Url-Test
-    输入: url-test
+    type: url-test
     include-all: true
     interval: 300
     tolerance: 50
   - name: 📘 GitHub
-    输入: select
+    type: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
@@ -84,7 +84,7 @@ proxy-groups:
       - 🚀 Select
       - DIRECT
   - name: 👯‍♂️ TikTok
-    输入: select
+    type: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
@@ -103,7 +103,7 @@ proxy-groups:
       - 🚀 Select
       - DIRECT
   - name: 🎓 Telegram
-    输入: select
+    type: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
@@ -122,7 +122,7 @@ proxy-groups:
       - 🚀 Select
       - DIRECT
   - name: 🌈 Google
-    输入: select
+    type: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
@@ -141,7 +141,7 @@ proxy-groups:
       - 🚀 Select
       - DIRECT
   - name: 🎦 YouTube
-    输入: select
+    type: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
@@ -160,7 +160,7 @@ proxy-groups:
       - 🚀 Select
       - DIRECT
   - name: 📘 Notion
-    输入: select
+    type: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
@@ -179,11 +179,11 @@ proxy-groups:
       - 🚀 Select
       - DIRECT
   - name: 🎯 China
-    输入: select
+    type: select
     proxies:
       - DIRECT
   - name: 🐟 Other
-    输入: select
+    type: select
     proxies:
       - ♻️ Url-Test
       - 🇭🇰 香港-自动
